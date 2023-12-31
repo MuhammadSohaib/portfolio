@@ -141,7 +141,8 @@ def get_text():
 
 st.subheader(" 🗣️ Chat With Me Now")
 st.markdown('<div class="custom-container">', unsafe_allow_html=True)
-user_input = get_text()
+with st.container():
+    user_input = get_text()
 st.markdown('</div>', unsafe_allow_html=True)
 
 if user_input:
