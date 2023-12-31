@@ -3,7 +3,7 @@ import requests
 from streamlit_lottie import st_lottie
 from streamlit_timeline import timeline
 import streamlit.components.v1 as components
-from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext
+from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext, PromptHelper
 from constant import *
 from PIL import Image
 import openai
@@ -106,12 +106,17 @@ name = info["Name"]
 def ask_bot(input_text):
     # define LLM
     llm = ChatOpenAI(
-        model_name="gpt-3.5-turbo",
+        model_name="text-davinci-003",
         temperature=0,
         openai_api_key=openai.api_key,
     )
+    max_input_size = 4096
+    num_output = 256
+    max_chunk_overlap = 20
+
+    prompt_helper = PromptHelper(max_input_size, num_output, max_chunk_overlap)
     llm_predictor = LLMPredictor(llm=llm)
-    service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor)
+    service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor, prompt_helper=prompt_helper)
     
     # load index
     index = GPTVectorStoreIndex.from_documents(documents, service_context=service_context)    
@@ -125,10 +130,10 @@ def ask_bot(input_text):
     Answer the input question based on the indexed document.
     Human: {input}
     """
-    
-    output = index.as_query_engine().query(PROMPT_QUESTION.format(input=input_text))
-    print(f"output: {output}")
-    return output.response
+    response = index.query(get_text())
+    # output = index.as_query_engine().query(PROMPT_QUESTION.format(input=input_text))
+    # print(f"output: {output}")
+    return response
 
 # get the user's input by calling the get_text function
 def get_text():
