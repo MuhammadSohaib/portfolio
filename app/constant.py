@@ -1,0 +1,27 @@
+info = {
+   "Pronoun": "his", 
+   "Name": "Sohaib",
+   "Full_Name": "Muhammad Sohaib",
+   "Intro": "Tech Innovator and AI Expert, Continuously Exploring the Frontiers of Computer Vision, Machine Learning and Large Language Models",
+   "About":"Leveraging a decade of expertise in Data and Machine Learning Engineering, I, Sohaib, am dedicated to crafting advanced Big Data pipelines, implementing scalable ETL processes, and developing comprehensive data modeling and warehousing solutions. My proficiency spans Python, SQL, and essential Big Data tools like Apache Spark, Hadoop, and AWS. In the realm of computer vision, I bring to the table in-depth knowledge of various algorithms, including object detection, classification, action recognition, and activity recognition. My recent endeavors in Large Language Models (LLMS) have significantly enhanced data insights in vision-based projects, reflecting my commitment to integrating cutting-edge AI and ML technologies into creating innovative and effective solutions. Known for my exceptional problem-solving skills and a collaborative approach, I am consistently at the forefront of delivering high-quality, timely projects, continually pushing the boundaries of technology-driven insights.",
+   "City":"Islamabad, Pakistan",
+   "Photo":"""<a href=\"https://www.linkedin.com/in/muhammad-sohaib-624b0688/\"><img src=\"https://media.licdn.com/dms/image/D4D03AQGDSC3uiIDV2g/profile-displayphoto-shrink_200_200/0/1702352608709?e=1708560000&v=beta&t=PBRTqDEorRi2l1qyx15z2cRYeRcKoTybTWmSKc6j9OY" width=\"200\"   alt=\"Profile\" title=\"Profile\"></a>""",
+   "Email": "sohaib867@gmail.com"
+}
+
+embed_rss= {
+    'rss':"""<div style="overflow-y: scroll; height:500px; background-color:white;"> <div id="retainable-rss-embed" 
+        data-rss="https://pk.linkedin.com/in/muhammad-sohaib-624b0688"
+        data-maxcols="3" 
+        data-layout="grid"
+        data-poststyle="inline" 
+        data-readmore="Read the rest" 
+        data-buttonclass="btn btn-primary" 
+        data-offset="0"></div></div> <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>"""
+}
+
+endorsements = {
+    "img1": "https://github.com/MuhammadSohaib/portfolio/assets/10335765/fb4c2d54-5738-4ba4-a31b-1e1ece964be4",
+    "img2": "https://github.com/MuhammadSohaib/portfolio/assets/10335765/22aeb414-c31c-4d3c-87f6-6e01e6a5aef1",
+    "img3": "https://github.com/MuhammadSohaib/portfolio/assets/10335765/ffc53fe6-4785-43b5-a83a-8a084722ef06"
+}

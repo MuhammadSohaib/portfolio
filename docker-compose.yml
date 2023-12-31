@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+
+  portfolio:
+    image: "portfolio"
+    container_name: portfolio
+    build:
+        context: .
+        dockerfile: Dockerfile
+    command: "streamlit run /app/Home.py --server.port 8080"
+    ports:
+      - 8082:8080

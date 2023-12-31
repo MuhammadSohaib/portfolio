@@ -1,0 +1,62 @@
+{
+    "title": {
+        "text": {
+            "headline": "Career Experience",
+            "text": "<p>A summary of professional roles and accomplishments.</p>"
+        }
+    },
+    "events": [
+        {
+            "start_date": {
+                "year": "2018",
+                "month": "6"
+            },
+            "text": {
+                "headline": "SENIOR ENGINEER (DATA & ML)",
+                "text": "<p>Company: DARVIS<br>June 2018 – Present<br>Developed advanced computer vision and machine learning systems. Proficient in object detection, tracking, classification, and more. Skilled in Big Data processing with Apache Spark, Hadoop. Integrated LLMS for enhanced data insights. Improved system performance using Deepstream SDK and TensorRT. Led development of an in-house annotation tool. Managed and guided teams effectively.</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "2017",
+                "month": "1"
+            },
+            "end_date": {
+                "year": "2018",
+                "month": "5"
+            },
+            "text": {
+                "headline": "SENIOR DATA ENGINEER",
+                "text": "<p>Company: PERSONTYLE<br>January 2017 – May 2018<br>Consulted and trained in Big Data technology and Machine Learning. Developed modules using open-source Big Data solutions. Expertise in Blockchain, real-time data processing for Agro Industries.</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "2016",
+                "month": "3"
+            },
+            "end_date": {
+                "year": "2016",
+                "month": "12"
+            },
+            "text": {
+                "headline": "SOFTWARE ENGINEER",
+                "text": "<p>Company: EBRYX<br>March 2016 – December 2016<br>Evaluated and derived insights from data. Developed real-time dashboards for data interpretation.</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "2014",
+                "month": "12"
+            },
+            "end_date": {
+                "year": "2016",
+                "month": "2"
+            },
+            "text": {
+                "headline": "SOFTWARE ENGINEER",
+                "text": "<p>Company: PREDICTIFY ME<br>December 2014 – February 2016<br>Created a platform for analyzing and strategizing information from various resources.</p>"
+            }
+        }
+    ]
+}
