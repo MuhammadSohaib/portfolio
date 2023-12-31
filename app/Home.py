@@ -120,7 +120,7 @@ def ask_bot(input_text):
     service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor, prompt_helper=prompt_helper)
     
     # load index
-    index = GPTVectorStoreIndex.from_documents(documents, service_context=service_context)    
+    index = GPTSimpleVectorIndex.from_documents(documents, service_context=service_context)    
     
     # query LlamaIndex and GPT-3.5 for the AI's response
 
