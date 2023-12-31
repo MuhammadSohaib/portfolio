@@ -21,7 +21,7 @@ embed_rss= {
 }
 
 endorsements = {
-    "img1": "https://github.com/MuhammadSohaib/portfolio/assets/10335765/fb4c2d54-5738-4ba4-a31b-1e1ece964be4",
-    "img2": "https://github.com/MuhammadSohaib/portfolio/assets/10335765/22aeb414-c31c-4d3c-87f6-6e01e6a5aef1",
-    "img3": "https://github.com/MuhammadSohaib/portfolio/assets/10335765/ffc53fe6-4785-43b5-a83a-8a084722ef06"
+    "img1": "https://github.com/MuhammadSohaib/portfolio/assets/10335765/5b1accea-3fef-4c24-9930-bdd5a6ec599f",
+    "img2": "https://github.com/MuhammadSohaib/portfolio/assets/10335765/fe73733c-d374-4c0e-9e98-6ab58bb3d40f",
+    "img3": "https://github.com/MuhammadSohaib/portfolio/assets/10335765/3a2fb17c-08cb-4ced-82da-63215f9de51b"
 }
