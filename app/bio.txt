@@ -18,7 +18,72 @@ Spearheaded AI projects at DARVIS, resulting in a 30% increase in throughput of 
 Developed a mono repo architecture for deploying the product to several customers.
 
 Projects:
-In Sohaib's recent endeavors, he has spearheaded and significantly contributed to various innovative projects, each tailored to meet distinct challenges in data engineering and AI. A notable project is the Visionary Data Insight Engine, where Sohaib and his team developed a cutting-edge chatbot using LangChain technology and LLMS to derive analytical insights from structured data, thereby bolstering strategic analytics and informed decision-making. The Inventory Tracker is another hallmark project, involving the creation of an inference pipeline for object detection and tracking, which notably enhanced application throughput through the integration of Deepstream SDK. The Productivity Tracker further underscores Sohaib's expertise, focusing on facial recognition and object reidentification, along with the implementation of homography techniques for advanced indoor navigation. His role in developing action recognition models on 2D and 3D networks for Fall Prevention, optimized for real-time processing, is yet another testament to his skills. Leading the development of The Misaal, an in-house annotation tool, Sohaib fostered innovation in AI-powered annotation capabilities. Additionally, in the Ready Cash project, he was instrumental in enhancing the scalability and efficiency of data systems, crafting comprehensive data processing pipelines with technologies such as Apache Spark, Apache Drill, and Apache Airflow. Collectively, these projects highlight Sohaib's adeptness in leveraging advanced technologies to extract meaningful data insights and improve operational efficiencies.
+VISIONARY DATA INSIGHT ENGINE
+Development of an advanced chatbot using LangChain technology and Large Language
+Models (LLMS) to provide analytical insights from structured data.
+Engineered the system to calculate key performance indicators (KPIs) such as dwell time
+and zone-specific dwell metrics for strategic analytics.
+Implemented a chatbot interface to enhance user experience, enabling dynamic,
+conversational interactions for real-time data inquiries.
+Facilitated monitoring of daily activities and object movements within specific areas,
+providing immediate, data-informed responses.
+This approach significantly improved data accessibility and empowered clients with real-
+time insights for informed decision-making in various operational scenarios.
+
+INVENTORY TRACKER
+Development of an inference pipeline with object detection, tracking, classification, and
+QR code recognition using 6 real-time cameras at 7 frames per second on an RTX 3060.
+Training and testing of object detection and classification models regularly to enhance
+accuracy.
+Increased application’s throughput by 30% using Deepstream SDK.
+Homography and georeferencing techniques to accurately align, transform, and enable
+precise mapping of visual data to floorplan coordinates.
+Custom Algorithms for improving the tracker performance and KPIs.
+Creation of custom gst-plugins.
+
+PRODUCTIVITY TRACKER
+Development of an inference pipeline with object detection, tracking, facial recognition,
+and object reidentification.
+Routinely training, testing, and refining object detection, facial recognition, and object re-
+identification models to ensure optimal performance.
+Deployment of all models in the deepstream pipeline.
+Homography and georeferencing techniques to accurately align and transform images,
+facilitating the precise mapping of visual data to floorplan coordinates for advanced
+indoor navigation and spatial analysis.
+Enhancing accuracy by ensembling color-based and object re-identification models,
+utilizing complementary features to optimize recognition performance and ensure robust
+results in diverse environments.
+
+FALL PREVENTION:
+Development and training of action recognition models on both 2D and 3D networks,
+harnessing the power of spatial and temporal features for enhanced human activity
+recognition.
+Designing and implementing a high-performance action recognition inference pipeline in
+C++, optimizing for real-time processing.
+Model optimization using TensorRT and model training using NVIDIA's Transfer Learning
+
+
+
+THE MISAAL
+
+Spearheaded a team of 6 developers in creating an in-house annotation tool, leveraging
+state-of-the-art AI features to optimize the labeling process and enhance dataset quality.
+Fostered a collaborative environment, driving innovation and efficient development of AI-
+powered annotation capabilities.
+Coordinated project milestones, ensuring timely delivery of a cutting-edge annotation tool
+tailored to the team's unique requirements.
+Mentored team members in AI and computer vision techniques, fostering skill
+development and knowledge sharing.
+Managed resource allocation, effectively balancing team workload and project goals to
+deliver a high-quality annotation solution.
+
+READY CASH:
+Improving the scalability, stability, accuracy, speed, and efficiency of our existing data
+systems.
+Designing and developing end-to-end data processing pipelines using technologies such
+as Apache Spark Apache Drill and Apache Airflow.
+Developing, maintaining, and optimizing the core libraries for batch processing and
+ingestion of large volumes of data to the big data infrastructure.
 
 Contact:
 https://www.linkedin.com/in/muhammad-sohaib-624b0688/
