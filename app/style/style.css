@@ -100,9 +100,12 @@ background-color: #04AA6D;
     border-radius: 6px;
 }
 
-.st-bv .st-bu .st-be .st-bz .st-c0 .st-c1 .st-c2 .st-c3 .st-c4 .st-c5 .st-c6 .st-c7 .st-c8 .st-b8 .st-c9 .st-ca .st-cb .st-cc .st-cd .st-ce .st-cf .st-cg .st-ae .st-af .st-ag .st-ch .st-ai .st-aj .st-by .st-ci .st-cj .st-ck
-
+.st-bv .st-bu
  { background-color: rgb(255, 255, 255); }
+
+ .st-cz {
+  background-color: transparent;
+ }
 
 
 .css-1cypcdb .e1fqkh3o11
