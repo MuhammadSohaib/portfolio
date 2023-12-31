@@ -14,8 +14,8 @@ Certification:
 Multiple courses on Deeplearning AI regarding computer vision and large language models
 
 Achievements:
-Spearheaded AI projects at IBM, resulting in a 30% increase in user engagement.
-Utilized IBM's watsonx service to help over 1000 companies from various domains automate their HR processes, from hiring to onboarding, contributing to a 100% positive feedback rate from companies.
+Spearheaded AI projects at DARVIS, resulting in a 30% increase in throughput of computer vision product.
+Developed a mono repo architecture for deploying the product to several customers.
 
 Contact:
 https://www.linkedin.com/in/muhammad-sohaib-624b0688/
