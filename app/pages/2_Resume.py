@@ -10,7 +10,7 @@ local_css("app/style/style.css")
 
 st.sidebar.markdown(info['Photo'],unsafe_allow_html=True)
 
-st.write("If Chrome does not open the resume, try Firefox.")
+st.markdown("If Chrome does not open the resume, try Firefox.")
 
 st.title("📝 Resume")
 
