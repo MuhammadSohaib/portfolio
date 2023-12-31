@@ -17,9 +17,6 @@ Achievements:
 Spearheaded AI projects at DARVIS, resulting in a 30% increase in throughput of computer vision product.
 Developed a mono repo architecture for deploying the product to several customers.
 
-Projects:
-In Sohaib's recent endeavors, he has spearheaded and significantly contributed to various innovative projects, each tailored to meet distinct challenges in data engineering and AI. A notable project is the Visionary Data Insight Engine, where Sohaib and his team developed a cutting-edge chatbot using LangChain technology and LLMS to derive analytical insights from structured data, thereby bolstering strategic analytics and informed decision-making. The Inventory Tracker is another hallmark project, involving the creation of an inference pipeline for object detection and tracking, which notably enhanced application throughput through the integration of Deepstream SDK. The Productivity Tracker further underscores Sohaib's expertise, focusing on facial recognition and object reidentification, along with the implementation of homography techniques for advanced indoor navigation. His role in developing action recognition models on 2D and 3D networks for Fall Prevention, optimized for real-time processing, is yet another testament to his skills. Leading the development of The Misaal, an in-house annotation tool, Sohaib fostered innovation in AI-powered annotation capabilities. Additionally, in the Ready Cash project, he was instrumental in enhancing the scalability and efficiency of data systems, crafting comprehensive data processing pipelines with technologies such as Apache Spark, Apache Drill, and Apache Airflow. Collectively, these projects highlight Sohaib's adeptness in leveraging advanced technologies to extract meaningful data insights and improve operational efficiencies.
-
 Contact:
 https://www.linkedin.com/in/muhammad-sohaib-624b0688/
 Email: sohaib867@gmail.com
