@@ -111,8 +111,8 @@ def ask_bot(input_text):
         openai_api_key=openai.api_key,
     )
     max_input_size = 4096
-    num_output = 256
-    max_chunk_overlap = 20
+    num_output = 20000
+    max_chunk_overlap = 2000
 
     prompt_helper = PromptHelper(max_input_size, num_output, max_chunk_overlap)
     llm_predictor = LLMPredictor(llm=llm)
