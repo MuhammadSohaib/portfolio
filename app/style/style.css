@@ -31,7 +31,7 @@ input[type=message], input[type=email], input[type=text], textarea {
     padding: 12px; 
     border: 1px solid #ccc;
     background-color: white; 
-    border-radius: 20px; 
+    border-radius: 6px; 
     box-sizing: border-box; 
     margin-top: 6px;
     margin-bottom: 6px;
