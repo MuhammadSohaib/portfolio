@@ -126,7 +126,13 @@ def ask_bot(input_text):
     """
     
     output = index.as_query_engine().query(input_text)
-    print(f"output: {output}")
+    if not output.response or output.response.isspace() or "I don't know" in output.response:
+        message = f"""Sorry, I do not have enough information to answer this question. You can directly reach out to {name}"
+                    Email: {info['Email']}
+                    Linkedin: {info['Linkedin']}"""
+        return message
+    else:
+        return output.response
     return output.response
 
 # get the user's input by calling the get_text function

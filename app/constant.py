@@ -7,6 +7,7 @@ info = {
    "City":"Islamabad, Pakistan",
    "Photo":"""<a href=\"https://www.linkedin.com/in/muhammad-sohaib-624b0688/\"><img src=\"https://media.licdn.com/dms/image/D4D03AQGDSC3uiIDV2g/profile-displayphoto-shrink_200_200/0/1702352608709?e=1708560000&v=beta&t=PBRTqDEorRi2l1qyx15z2cRYeRcKoTybTWmSKc6j9OY" width=\"200\"   alt=\"Profile\" title=\"Profile\"></a>""",
    "Email": "sohaib867@gmail.com"
+   "Linkedin": "https://www.linkedin.com/in/muhammad-sohaib-624b0688"
 }
 
 embed_rss= {
