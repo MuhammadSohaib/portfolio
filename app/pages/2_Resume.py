@@ -10,8 +10,9 @@ local_css("app/style/style.css")
 
 st.sidebar.markdown(info['Photo'],unsafe_allow_html=True)
 
-st.title("📝 Resume")
 st.write("If Chrome does not open the resume, try Firefox.")
+
+st.title("📝 Resume")
 
 with open("app/images/resume.pdf","rb") as f:
       base64_pdf = base64.b64encode(f.read()).decode('utf-8')
