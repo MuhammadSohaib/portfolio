@@ -22,22 +22,11 @@ https://www.linkedin.com/in/muhammad-sohaib-624b0688/
 Email: sohaib867@gmail.com
 
 Projects:
-VISIONARY DATA INSIGHT ENGINE
 We developed an advanced chatbot utilizing LangChain technology and Large Language Models (LLMS) to extract analytical insights from structured data. This system was engineered to compute key performance indicators (KPIs) like dwell time and zone-specific metrics, enhancing strategic analytics. The chatbot interface was implemented to augment user experience, enabling dynamic and conversational interactions for real-time data inquiries. This system played a crucial role in monitoring daily activities and object movements, providing instant, data-informed responses, thereby significantly enhancing data accessibility and empowering clients with real-time insights for informed decision-making across various operational contexts.
-
-INVENTORY TRACKER
 This project involved the development of an inference pipeline capable of object detection, tracking, classification, and QR code recognition, utilizing 6 real-time cameras at 7 frames per second on an RTX 3060. We regularly trained and tested object detection and classification models to improve accuracy. The application's throughput was increased by 30% through the integration of the Deepstream SDK. We also employed homography and georeferencing techniques for precise alignment and transformation of visual data to floorplan coordinates, alongside the creation of custom gst-plugins to enhance tracker performance and KPIs.
-
-PRODUCTIVITY TRACKER
 The productivity tracker entailed developing an inference pipeline with capabilities in object detection, tracking, facial recognition, and object reidentification. We consistently trained, tested, and refined these models to ensure optimal performance, deploying them in the deepstream pipeline. The project included the use of homography and georeferencing for accurate image alignment and transformation, thereby enabling advanced indoor navigation and spatial analysis. We enhanced accuracy by integrating color-based and object re-identification models, leveraging their complementary features to ensure robust performance in varied environments.
-
-FALL PREVENTION
 In this initiative, we focused on the development and training of action recognition models on both 2D and 3D networks to capture spatial and temporal features for improved human activity recognition. The project involved designing and implementing a high-performance action recognition inference pipeline in C++, optimized for real-time processing. We utilized TensorRT for model optimization and employed NVIDIA's Transfer Learning Toolkit for model training.
-
-THE MISAAL
 I led a team of six developers in creating an in-house annotation tool, integrating advanced AI features to streamline the labeling process and enhance dataset quality. This project fostered a collaborative environment that encouraged innovation and the efficient development of AI-powered annotation capabilities. We coordinated project milestones to ensure the timely delivery of this cutting-edge tool, tailored to meet our team's specific needs. In addition to managing resource allocation, I played a key role in mentoring team members in AI and computer vision techniques, promoting skill development and knowledge sharing.
-
-READY CASH
 The Ready Cash project was aimed at improving the scalability, stability, accuracy, speed, and efficiency of existing data systems. My role involved designing and developing comprehensive data processing pipelines utilizing technologies like Apache Spark, Apache Drill, and Apache Airflow. A significant part of this project was devoted to developing, maintaining, and optimizing core libraries for batch processing and the ingestion of large data volumes into our big data infrastructure.
 
 Strengths and Advantages:
