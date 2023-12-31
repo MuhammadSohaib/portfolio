@@ -127,9 +127,9 @@ def ask_bot(input_text):
     
     output = index.as_query_engine().query(input_text)
     if not output.response or output.response.isspace() or "I don't know" in output.response or "I'm sorry" in output.response:
-        message = f"""Sorry, I do not have enough information to answer this question. You can directly reach out to {name} \n"
-                        Email: {info['Email']}
-                        Linkedin: {info['Linkedin']}"""
+        message = f"""Sorry, I do not have enough information to answer this question. You can directly reach out to {name}\n
+                    Email: {info['Email']}\n
+                    LinkedIn: {info['Linkedin']}"""
         return message
     else:
         return output.response
