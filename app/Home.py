@@ -111,10 +111,11 @@ def ask_bot(input_text):
         openai_api_key=openai.api_key,
     )
     max_input_size = 4096
-    num_output = 20000
-    max_chunk_overlap = 2000
+    num_output = 4096
+    chunk_overlap_ratio= 0.1
+    chunk_size_limit=1024
 
-    prompt_helper = PromptHelper(max_input_size, num_output, max_chunk_overlap)
+    prompt_helper = PromptHelper(max_input_size, num_output, chunk_overlap_ratio, chunk_size_limit)
     llm_predictor = LLMPredictor(llm=llm)
     service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor, prompt_helper=prompt_helper)
     
