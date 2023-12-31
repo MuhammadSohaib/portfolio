@@ -9,4 +9,4 @@ Showcase your coding skills to recruiters with a chatbot tailored to your resume
 - hi
 - what's his contact?
 - what's his hobby?
-- what's his education background?
+- what's his educational background?
