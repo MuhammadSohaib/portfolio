@@ -13,7 +13,7 @@ def load_and_resize_image(image_path, size=(700, 700)):
         
 
 
-local_css("style/style.css")
+local_css("app/style/style.css")
 
 st.sidebar.markdown(info['Photo'],unsafe_allow_html=True)
 
@@ -21,10 +21,10 @@ st.sidebar.markdown(info['Photo'],unsafe_allow_html=True)
 st.title("🫶 Hobbies")
 
 
-img_1 = load_and_resize_image("images/1.jpeg")
-img_2 = load_and_resize_image("images/2.jpeg")
-img_3 = load_and_resize_image("images/3.jpeg")
-img_4 = load_and_resize_image("images/4.jpeg")
+img_1 = load_and_resize_image("app/images/1.jpeg")
+img_2 = load_and_resize_image("app/images/2.jpeg")
+img_3 = load_and_resize_image("app/images/3.jpeg")
+img_4 = load_and_resize_image("app/images/4.jpeg")
 
 
 # Create two rows with two columns each
