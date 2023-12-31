@@ -29,7 +29,7 @@ p{
 input[type=message], input[type=email], input[type=text], textarea {
     width: 100%; 
     padding: 12px; 
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     background-color: white; 
     border-radius: 6px; 
     box-sizing: border-box; 
