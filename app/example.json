@@ -8,12 +8,26 @@
     "events": [
         {
             "start_date": {
+                "year": "2022",
+                "month": "1"
+            },
+            "text": {
+                "headline": "PRINCIPAL ENGINEER (DATA & ML)",
+                "text": "<p>Company: DARVIS<br>January 2022 – Present<br>Developed sophisticated computer vision and machine learning solutions for real-time analytics across logistics, retail, and healthcare industries, while also managing teams effectively and overseeing the integration of Large Language Models for enhanced data analytics capabilities.</p>"
+            }
+        },
+        {
+            "start_date": {
                 "year": "2018",
                 "month": "6"
             },
+            "end_date": {
+                "year": "2021",
+                "month": "12"
+            },
             "text": {
                 "headline": "SENIOR ENGINEER (DATA & ML)",
-                "text": "<p>Company: DARVIS<br>June 2018 – Present<br>Developed advanced computer vision and machine learning systems. Proficient in object detection, tracking, classification, and more. Skilled in Big Data processing with Apache Spark, Hadoop. Integrated LLMS for enhanced data insights. Improved system performance using Deepstream SDK and TensorRT. Led development of an in-house annotation tool. Managed and guided teams effectively.</p>"
+                "text": "<p>Company: DARVIS<br>June 2018 – December 2021<br>Developed advanced computer vision and machine learning systems. Proficient in object detection, tracking, classification, and more. Skilled in Big Data processing with Apache Spark, Hadoop. Integrated LLMS for enhanced data insights. Improved system performance using Deepstream SDK and TensorRT. Led development of an in-house annotation tool. Managed and guided teams effectively.</p>"
             }
         },
         {
