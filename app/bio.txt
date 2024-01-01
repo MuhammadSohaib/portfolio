@@ -62,10 +62,7 @@ Designing and implementing a high-performance action recognition inference pipel
 C++, optimizing for real-time processing.
 Model optimization using TensorRT and model training using NVIDIA's Transfer Learning
 
-
-
 THE MISAAL
-
 Spearheaded a team of 6 developers in creating an in-house annotation tool, leveraging
 state-of-the-art AI features to optimize the labeling process and enhance dataset quality.
 Fostered a collaborative environment, driving innovation and efficient development of AI-
